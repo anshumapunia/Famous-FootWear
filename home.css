@@ -1,0 +1,608 @@
+nav
+{
+ /* border: 2px solid red; */
+ /* height: 200px; */
+ display: flex;
+width:auto;
+height: fit-content;
+}
+nav img
+{ 
+   margin-top: 60px;
+   margin-left: 50px;
+}
+.searchbar
+{
+   margin: 30px;
+   margin-left: 550px;
+   /* color: rgb(124, 135, 142); */
+}
+.searchbar input
+{
+    height: 40px;
+    width: 300px;
+    font-size: larger;
+    /* text-align: center; */
+    
+}
+.ol1
+{
+    display: flex;
+  padding-right: 100px;
+  justify-content: right;
+
+}
+ol >li
+{
+margin-left: 80px;
+list-style: none;
+
+}
+ol li a
+{
+    text-decoration: none;
+    color: rgb(51, 63, 78);
+}
+.ol2
+{
+    justify-content: right;
+}
+.second
+{
+    display: flex;
+    /* border: 1px solid red; */
+}
+.find
+{
+    margin-left: 70px;
+    margin-top: 5px;
+    list-style: none;
+}
+.find >li >a
+{
+    color: black;
+}
+.free
+{
+    margin-left: 700px;
+}
+.free >li
+{
+    list-style: none;
+}
+.free >li >a
+{
+    color: black;
+}
+.third
+{
+    /* border: 2px solid green; */
+    height: 150px;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+}
+.up
+{
+  /* border: 1px solid red; */
+  /* margin: auto; */
+  margin-left: 10px;
+  /* height: 200px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 260px;
+  text-align: center;
+  list-style: none;
+  background-color: rgb(51, 63, 72);
+  color: white;
+}
+.up >li >a
+{
+  color: white;
+}
+.un
+{
+    /* border: 1px solid red; */
+  /* margin: auto; */
+  margin-left: 10px;
+  /* height: 200px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 260px;
+  text-align: center;
+  list-style: none;
+  background-color: rgb(51, 63, 72);
+  color: white;
+}
+.un >li >a
+{
+  color: white;
+}
+.exc
+{
+    /* border: 1px solid red; */
+    /* margin: auto; */
+    margin-left: 10px;
+    /* height: 200px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 260px;
+    text-align: center;
+    list-style: none;
+    background-color: rgb(213, 0, 50);
+    color: white;   
+}
+.exc >li >a
+{
+    color: white;
+}
+.fourth
+{
+    /* border: 2px solid royalblue; */
+    height: fit-content;
+    width: fit-content;
+}
+.fam
+{
+    /* border: 2px solid blue; */
+    /* margin: auto;  */
+    margin-left: 70px;
+}
+.fam >img
+{
+    height: 400px;
+    width: 1100px;
+    /* margin: auto;
+    position: relative; */
+
+}
+.new
+{
+    /* background-color: white; */
+    border: 2px solid white;
+}
+.year
+{
+    color:white;
+    position: absolute;
+    top:100%;
+    width: 130%;
+    text-align: center;
+}
+.see
+{
+    
+    color:white;
+    position: absolute;
+    top:110%;
+    width: 130%;
+    text-align: center;
+}
+.shop
+{
+    color:white;
+    position: absolute;
+    top:120%;
+    width: 130%;
+    text-align: center;
+}
+.heading
+{
+    margin: auto;
+    text-align: center;
+    color: black;
+    /* list-style: none; */
+    font-size: larger;
+}
+.snow
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.snow >div >img
+{
+    height: 230px;
+    width: 250px;
+}
+.snow >div>h3
+{
+  text-align: center;
+  color: black;
+}
+
+.sixth
+{
+    /* border: 2px solid red; */
+    background-color: rgb(96, 52, 71);
+    display: flex;
+    /* margin: auto; */
+    justify-content: center;
+    /* justify-items: center; */
+
+}
+.pro img
+{
+    height: 200px;
+    width: 500px;
+}
+.hop
+{
+ color: white;
+ list-style: none;
+ margin-left: 400px;
+ margin-top: 100px;
+}
+
+.for
+{
+ text-align: center;
+ color: black;
+}
+.boot
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+
+}
+.boot >div
+{
+ width: 150px;
+ min-height: 450px;
+}
+.boot >div >div 
+{
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+.boot >div >div >img
+{
+    height: 110x;
+    width: 200px;
+}
+.boot >div >h4
+{
+    color: black;
+    text-align: center;
+}
+.boot >div >p
+{
+    color: black;
+    text-align: center;
+}
+.eight
+{
+    /* border: 2px solid red; */
+    width: 700px;
+    margin: auto;
+}
+.style
+{
+    text-align: center;
+    color: black;
+}
+.down
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.down1
+{
+    width: 150px;
+    height: 148px;
+    margin: auto;
+    background-image: url("https://www.famousfootwear.com/-/media/project/tenant/famous-footwear/famous-footwear/homepage/2022/holiday/price-bubbles/wk48_pricebubbles_performance.jpg?h=148&iar=0&w=150&hash=DE7D0EB08472865D432ADBEEFCBEAE84");
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    /* font-weight:lighter ; */
+    font-size: x-large;
+    /* margin: auto; */
+}
+.down2
+{
+ 
+    background-image: url("https://www.famousfootwear.com/-/media/project/tenant/famous-footwear/famous-footwear/homepage/2022/holiday/price-bubbles/wk48_pricebubbles_nike.jpg?h=148&iar=0&w=150&hash=59E5593AD4402D0195C45F308E95FFA7");
+    width: 150px;
+    height: 148px;
+    margin: auto;
+    /* background-image: url("https://www.famousfootwear.com/-/media/project/tenant/famous-footwear/famous-footwear/homepage/2022/holiday/price-bubbles/wk48_pricebubbles_womens-boots.jpg?h=148&iar=0&w=150&hash=EC406ACA0256DB19D0BE7D1416C7C262"); */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    /* font-weight:lighter ; */
+    font-size: x-large;
+    /* margin: auto; */
+}
+.down3
+{
+    width: 150px;
+    height: 148px;
+    margin: auto;
+    background-image: url("https://www.famousfootwear.com/-/media/project/tenant/famous-footwear/famous-footwear/homepage/2022/holiday/price-bubbles/wk48_pricebubbles_womens-boots.jpg?h=148&iar=0&w=150&hash=EC406ACA0256DB19D0BE7D1416C7C262");
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    /* font-weight:lighter ; */
+    font-size: x-large;
+    /* margin: auto; */
+}
+.down4
+{
+    width: 150px;
+    height: 148px;
+    margin: auto;
+    background-image: url("https://www.famousfootwear.com/-/media/project/tenant/famous-footwear/famous-footwear/homepage/2022/holiday/price-bubbles/wk48_pricebubbles_kids-clearance.jpg?h=148&iar=0&w=150&hash=9DDB7D9E793FD54571D34D22DEB82DA1" );
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    /* font-weight:lighter ; */
+    font-size: x-large;
+    /* margin: auto; */
+}
+
+.down >div >img
+{
+    height: 150px;
+}
+/* .nine
+{
+    border: 2px solid green;
+
+} */
+.foot img
+{
+    height: 300px;
+    width: 1000px;
+   margin-left: 120px;
+   margin-top: 40px;
+}
+.game p
+{
+  text-align: center;
+  color: black;
+}
+/* .ten
+{
+    border: 2px solid red;
+} */
+.court
+{
+    text-align: center;
+    color: black;
+}
+.neak
+{
+  display: flex;
+  justify-content:space-around;
+}
+.neak img
+{
+ height: 500px;
+ width: 550px;
+}
+.neak >div
+{
+  text-align: center;
+  color: black;
+}
+.eleven
+{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.eleven >div
+{
+    margin-right: 10px;
+    color: black;
+}
+.look
+{
+  height: 393.5px;
+  width: 350px;
+}
+.off >img
+{
+ /* height: 800px; */
+ width: 350px;
+ /* margin-top: 30px; */
+}
+/* .tweleve
+{
+    border: 2px solid red;
+    align-items: center;
+   
+} */
+.high
+{
+    margin-left: 120px;
+}
+
+.high >img
+{
+  height: 400px;
+  width: 1000px;
+}
+.ready
+{
+    text-align: center;
+    color: black;
+}
+.thirteen
+{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.best >h2
+{
+ text-align: center;
+ color: black;
+}
+.seller
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.seller >div
+{
+    color: black;
+}
+.seller >div >img
+{
+ height: 150px;
+ width: 200px;
+}
+.seller >div >div
+{
+display: flex;
+/* margin-left: px; */
+justify-content: space-around;
+color: black;
+}
+/* .fourteen
+{
+    border: 2px solid green;
+} */
+.have >h3
+{
+    text-align: center;
+    color: black;
+}
+.got
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.brand
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+.brand >div >img
+{
+    height: 200px;
+    /* width: 100px; */
+    /* margin: auto; */
+}
+/* .fifteen
+{
+    border: 2px solid red;
+} */
+.arri
+{
+    text-align: center;
+    color: black;
+}
+.eco{
+ display: flex;
+ justify-content: space-evenly;
+ text-align: center;
+ color: black;
+}
+.eco >div >img
+{
+    height: 150px;
+    width: 200px;
+}
+.sixten
+{
+    /* border: 2px solid green; */
+    /* background-color: rgb(213, 0, 50); */
+margin: 10px;
+    
+}
+.wide
+{
+    background-color: rgb(213, 0, 50);
+    display: flex;
+    /* justify-content:space-between; */
+    margin: auto;
+    width: 1100px;
+}
+.wide1
+{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.all
+{
+    color: white;
+    /* margin-top: 0px; */
+    margin-left: 100px;
+    padding: 20px;
+}
+.sign
+{
+    display: flex;
+    height: 40px;
+    /* width: 400px; */
+    margin: auto;
+}
+.sign >button
+{
+    height: 50px;
+    /* width: 120px; */
+    font-size: larger;
+}
+.sign >p
+{
+    margin-left: 20px;
+    color: white;
+    font-size: larger;
+    text-decoration: bold ;
+}
+/* .seventeen
+{
+    border: 2px solid red;
+} */
+.we{
+   text-align: center;
+   color: black;
+}
+.to{
+    display: flex;
+    justify-content: space-evenly;
+}
+.to >div >img
+{
+    height: 400px;
+    width: 300px;
+}
+/* .eighteen
+{
+    border: 2px solid green;
+} */
+.fresh >h3
+{
+    text-align: center;
+    color: black;
+}
+.nineten >h3
+{
+    text-align: center;
+    color: black;
+}
+.twenty
+{
+    display: flex;
+    justify-content:space-around;
+    width: 400px;
+    margin: auto;
+    color: black;
+}
+.twone
+{
+ text-align: center;
+ color: black;
+}
+
+
+
+    
