@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+      #container>div{
+      width: 50%;
+      margin: auto;
+      
+       
+      }
+      input{
+        display: block;
+      }
+    .Card :nth-child(1){
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    margin-left: 46px;
+    }
+    .Card :nth-child(2){
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 46px;
+    margin-top: 0px;
+    }
+    input{
+        background: #FFFFFF;
+    border: 1px solid #4285F4;
+    border-radius: 9px;
+    margin-left: 45px;
+    margin-right: 45px;
+    width: 465.22px;
+    height: 57.23px;
+    padding-left:25.7px ;
+    }
+    .Card :nth-child(4){
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 46px;
+    margin-top: 36.15px;
+    }
+    .Card :nth-child(6){
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+color: #AD3113;
+margin-right:90px;
+margin-top: 15.06px;
+text-align: right;
+    }
+    button{
+        width: 490.22px;
+    height: 54.22px;
+    background:#38E54D;
+    box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+    border-radius: 10px;
+    margin-left: 46px;
+    color: white;
+    margin-top: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+    }
+    .Card ::placeholder{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    }
+    .Card{
+        padding-bottom: 50px;
+        padding-top: 20px;
+        background: #FFFFFF;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+    }
+    @media screen and (min-width: 320px) and (max-width: 499px) {
+        
+      #container>div{
+        width: fit-content;
+      }
+      .Card :nth-child(6){
+        margin-right: 50px;
+      }
+      #container{
+        width: fit-content;
+      }
+       
+      }
+      @media only screen and (min-width: 500px) and (max-width: 768px) {
+        #container>div{
+        width: fit-content;
+      }
+      #container>div{
+        width: fit-content;
+      }
+    }
+    
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="Card">
+           
+            <p>Sign In</p>
+            <p>Enter Your Email</p>
+          <input type="email" placeholder="Enter Your Email" id="email" >
+            <p>Enter Your Password</p>
+          <input type="password" placeholder="Enter Your Password" id="password">
+          <p onclick="forgot()">forgot Password</p>
+          <button>Sign In</button>
+        </div>
+    </div>
+</body>
+<script>
+    let email=document.getElementById("email")||""
+    let password=document.getElementById("password")
+let signin=document.querySelector("button")
+
+    let login=JSON.parse(localStorage.getItem("logindata"))||[]
+       console.log(login)
+
+   signin.addEventListener("click",function(){
+    if(email.value=="" || password.value==""){
+        alert("Please Full all details")
+    }
+      else if(check(login)){
+        //call function page here(Home Page)
+       }else{
+        alert("Wrong Password Or Wrong Email")
+       }
+
+    }
+   )
+
+  function check(data){
+    for(let i=0; i<data.length; i++){
+        
+          if(email.value==data[i].email && password.value==data[i].password){
+            return true
+          }
+    }
+    return false
+  }
+    
+    
+    
+
+    function forgot(){
+        open("forgot.html")
+    }
+</script>
+</html>
