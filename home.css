@@ -1,3 +1,8 @@
+body
+{
+    background-color: white;
+}
+
 nav
 {
  /* border: 2px solid red; */
@@ -6,16 +11,18 @@ nav
 width:auto;
 height: fit-content;
 }
-nav img
+
+nav >div >img   
 { 
    margin-top: 60px;
    margin-left: 50px;
 }
 .searchbar
 {
-   margin: 30px;
+   margin-top: 30px;
    margin-left: 550px;
    /* color: rgb(124, 135, 142); */
+   /* border: 1px solid green; */
 }
 .searchbar input
 {
@@ -25,23 +32,60 @@ nav img
     /* text-align: center; */
     
 }
+.top
+{
+    display: flex;
+    margin: auto;
+
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    height: 100px;
+    
+}
+.top1
+{
+    /* margin-bottom: 30px; */
+    /* border: 1px solid yellow; */
+    margin-top: 38px;
+    /* vertical-align: top; */
+    /* max-height: 100px; */
+    /* overflow: hidden; */
+}
+/* .top >div */
+/* { */
+    /* align-items: center; */
+    /* margin-bottom: -20px; */
+    /* vertical-align: top; */
+    /* padding-bottom: 20px; */
+/* } */
+.top1 >img
+{
+    height: 25px;
+    width: 30px;
+}
 .ol1
 {
     display: flex;
   padding-right: 100px;
   justify-content: right;
+  /* border: 1px solid red; */
 
 }
 .ol1 >li
 {
 margin-left: 80px;
 list-style: none;
-
+/* border: 1px solid red; */
 }
+/* .ol1 >li >a
+{
+    display: block;
+} */
 ol li a
 {
     text-decoration: none;
     color: rgb(51, 63, 78);
+    display: block;
 }
 .ol2
 {
@@ -587,6 +631,8 @@ margin: 10px;
     display: flex;
     display: none;
     /* display: grid; */
+    position: absolute;
+    background-color: white;
 }
 .submenu >div>h3
 {
@@ -599,12 +645,32 @@ margin: 10px;
 }
 .ol1 :hover
 {
-    background-color:white;
+    background-color:rgb(240, 240, 240);
 }
 .ol1 :hover .submenu
 {
     display: block;
+    display: flex;
+    font-size: smaller;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.ol1 
+{
+    position: relative;
+}
+.submenu1
+{
+    display: flex;
+    display: none;
+    /* display: grid; */
+    position: absolute;
+    background-color:  white;
+}
+.ol1 :hover .submenu1
+{
+    display: flex;
+}
+
 
 
 
