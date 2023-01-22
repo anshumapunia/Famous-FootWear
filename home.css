@@ -58,7 +58,7 @@ nav >div >img
     /* vertical-align: top; */
     /* padding-bottom: 20px; */
 /* } */
-.top1 >img
+.top1 >a> img
 {
     height: 25px;
     width: 30px;
