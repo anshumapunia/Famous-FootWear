@@ -4,9 +4,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Add to cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <script type="text/javascript" src="cart.js"></script>
 </head>
 <body>
-    <div></div>
+
+   <div class="container">
+     <div class="card" id="item1">
+        <img src="	https://www.famousfootwear.com/-/media/project/tenant/famous-footwear/famous-footwear/homepage/2022/post-holiday/categories/wk51_011523_categorybanner_1_winterboots.jpg" alt="">
+        <div class="title">Red Heels</div>
+        <div>
+            <label>SIZE: </label>
+            <select>
+                <option >30</option>
+                <option >32</option>
+                <option >34</option>
+                <option >36</option>
+            </select>
+        </div>
+        <button onclick="addTocart(item1)">ADD TO CART</button>
+     </div>
+     <div class="card" id="item2">
+        <img src="	https://www.famousfootwear.com/-/media/project/tenant/famous-footwear/famous-footwear/homepage/2022/post-holiday/categories/wk50_010923_categorybanner_2_active.jpg" alt="">
+        <div class="title">Red Heels</div>
+        <div>
+            <label>SIZE: </label>
+            <select>
+                <option >30</option>
+                <option >32</option>
+                <option >34</option>
+                <option >36</option>
+            </select>
+        </div>
+        <button onclick="addTocart(item2)">ADD TO CART</button>
+     </div>
+     <div class="card" id="item3">
+        <img src="	https://www.famousfootwear.com/-/media/project/tenant/famous-footwear/famous-footwear/homepage/2022/post-holiday/categories/wk51_011523_categorybanner_4_slippers.jpg" alt="">
+        <div class="title">Red Heels</div>
+        <div>
+            <label>SIZE: </label>
+            <select>
+                <option >30</option>
+                <option >32</option>
+                <option >34</option>
+                <option >36</option>
+            </select>
+        </div>
+        <button onclick="addTocart(item3)">ADD TO CART</button>
+     </div>
+     <!-- <div class="card" id="item4">
+        <img src="	https://www.famousfootwear.com/-/media/project/tenant/famous-footwear/famous-footwear/homepage/2022/post-holiday/categories/wk50_010923_categorybanner_2_active.jpg" alt="">
+        <div class="title">Red Heels</div>
+        <div>
+            <label>SIZE: </label>
+            <select>
+                <option >30</option>
+                <option >32</option>
+                <option >34</option>
+                <option >36</option>
+            </select>
+        </div>
+        <button onclick="addtocart(item4)">ADD TO CART</button>
+     </div> -->
+     <!-- <div class="card" id="item5">
+        <img src="	https://www.famousfootwear.com/-/media/project/tenant/famous-footwear/famous-footwear/homepage/2022/post-holiday/categories/wk50_010923_categorybanner_2_active.jpg" alt="">
+        <div class="title">Red Heels</div>
+        <div>
+            <label>SIZE: </label>
+            <select>
+                <option >30</option>
+                <option >32</option>
+                <option >34</option>
+                <option >36</option>
+            </select>
+        </div>
+        <button onclick="addtocart(item5)">ADD TO CART</button>
+     </div>  -->
+     <!-- <div class="card" id="item6">
+        <img src="	https://www.famousfootwear.com/-/media/project/tenant/famous-footwear/famous-footwear/homepage/2022/post-holiday/categories/wk50_010923_categorybanner_2_active.jpg" alt="">
+        <div class="title">Red Heels</div>
+        <div>
+            <label>SIZE: </label>
+            <select>
+                <option >30</option>
+                <option >32</option>
+                <option >34</option>
+                <option >36</option>
+            </select>
+        </div>
+        <button onclick="addTocart(item6)">ADD TO CART</button>
+     </div> -->
+     <!-- <div class="card" id="item7">
+        <img src="	https://www.famousfootwear.com/-/media/project/tenant/famous-footwear/famous-footwear/homepage/2022/post-holiday/categories/wk50_010923_categorybanner_2_active.jpg" alt="">
+        <div class="title">Red Heels</div>
+        <div>
+            <label>SIZE: </label>
+            <select>
+                <option >30</option>
+                <option >32</option>
+                <option >34</option>
+                <option >36</option>
+            </select>
+        </div>
+        <button onclick="addTocart(item7)">ADD TO CART</button>
+     </div> -->
+     <div class="cart" id="cart">
+        <div class="title">CART</div><hr>
+        <div id="title"></div>
+     </div>
+   </div>
 </body>
 </html>
