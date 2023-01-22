@@ -44,20 +44,11 @@ nav >div >img
 }
 .top1
 {
-    /* margin-bottom: 30px; */
-    /* border: 1px solid yellow; */
+
     margin-top: 38px;
-    /* vertical-align: top; */
-    /* max-height: 100px; */
-    /* overflow: hidden; */
+   
 }
-/* .top >div */
-/* { */
-    /* align-items: center; */
-    /* margin-bottom: -20px; */
-    /* vertical-align: top; */
-    /* padding-bottom: 20px; */
-/* } */
+
 .top1 >a> img
 {
     height: 25px;
@@ -68,19 +59,16 @@ nav >div >img
     display: flex;
   padding-right: 100px;
   justify-content: right;
-  /* border: 1px solid red; */
+ 
 
 }
 .ol1 >li
 {
 margin-left: 80px;
 list-style: none;
-/* border: 1px solid red; */
+
 }
-/* .ol1 >li >a
-{
-    display: block;
-} */
+
 ol li a
 {
     text-decoration: none;
@@ -94,7 +82,7 @@ ol li a
 .second
 {
     display: flex;
-    /* border: 1px solid red; */
+ 
 }
 .find
 {
@@ -164,10 +152,8 @@ ol li a
 }
 .exc
 {
-    /* border: 1px solid red; */
-    /* margin: auto; */
+    
     margin-left: 10px;
-    /* height: 200px; */
     margin-top: 20px;
     margin-bottom: 20px;
     width: 260px;
